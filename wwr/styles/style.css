@@ -39,7 +39,7 @@ main section
 {
     height: 725px;
     background-color: #264653;
-    margin-bottom: 200px;
+    
 }
 
 
@@ -86,7 +86,6 @@ nav, a:hover
         background-color: #F4A261;
         line-height: 1.5em;
         padding: 35px;
-        margin-top: 200px;
     }
 
 .home-title, h4
