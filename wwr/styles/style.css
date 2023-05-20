@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:ital,wght@1,500&display=swap');
+
+:root
+{
+--heading-font: "Berkshire Swash";
+--paragraph-font: "Roboto", Helvetica, sans-serif;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-nav, a
+nav a
 {
+    background-color: #264653;
     text-align: left;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4
@@ -29,23 +39,30 @@ main section
 {
     height: 725px;
     background-color: #264653;
+    margin-bottom: 200px;
 }
 
 
 body
 {
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 header
     {
         background-color: #264653;
+        
     }
 
 nav, a:hover
     {
-        background-color: #F4A261;
-        color: white;
+        background-color: #264653;
+        
+        
+        
+        
     }
 
 .book, .join
@@ -53,6 +70,10 @@ nav, a:hover
         background-color: #264653;
         color: white;
         text-decoration: none;
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
     }
 
 .book:hover, .join:hover
@@ -63,6 +84,9 @@ nav, a:hover
 .msg
     {
         background-color: #F4A261;
+        line-height: 1.5em;
+        padding: 35px;
+        margin-top: 200px;
     }
 
 .home-title, h4
@@ -83,13 +107,14 @@ footer, a
     {
         color: #264653;
         background-color: #F4A261;
+        text-decoration: none;
         
     }
-a:hover
+nav a:hover, footer p  a:hover
     {
-        color: #264653;
+        color: #F4A261;
     }
-footer, p, a:hover
+footer p a:hover
     {
         
         text-decoration: underline;
@@ -103,6 +128,7 @@ footer, p, a:hover
 .icon 
     {
         width: 80px;
+        padding-top: 10px;
     }
 
 #hero-img
@@ -113,3 +139,67 @@ footer, p
     {
         font-size: 1.2em;
     }
+
+.home-title, .msg h2
+    {
+      font-family: var( --heading-font);
+    }
+
+p, h1, a, .home-grid, #hero-msg
+{
+    font-family: var( --paragraph-font);
+}
+
+.home-title
+{
+    font-size: 2em;
+    margin-top: 10px;
+} 
+.msg p 
+{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2
+{
+    margin: 0;
+}
+#logo_link   
+{
+    padding-top: 5px;
+}
+footer  
+{ 
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img
+{
+    padding-top: 15px;
+}
+
+
+.rivers-card, .camping-card, .rapids-card   
+{
+    margin: 200px 0;
+}
+ 
+
+.card-img 
+{
+    border: 10px solid #264653;
+}
+main section img 
+{
+    box-sizing: border-box;
+}
+
+header .logo
+{
+    margin-bottom: 30px;
+}
+
+.social a:hover
+{
+    background-color: #F4A261;    
+}

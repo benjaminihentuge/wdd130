@@ -1,4 +1,4 @@
-header:hover {
+/* header:hover {
     background-color: white;
     color: black;
   }
@@ -48,4 +48,30 @@ footer {
     width: 42%;
     color: white;
     margin: 0 auto;
+} */
+#background img
+{
+    width: 100%;
+}
+footer
+{
+    background-color: gray;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+
+footer img
+{                               
+    
+    padding: 0px;
+    border: 15px solid rgb(61, 61, 61);
+    border-radius: 50%;
+    width: 20%;
+}
+
+#img1, #img2, #img3
+{
+    margin: 10px;
 }
