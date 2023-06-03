@@ -147,3 +147,109 @@ footer img
 {
     margin: 10px;
 } */
+
+.content6 {
+  /* This is the parent of the activity 6 boxes. */
+  height: 725px;
+  display: grid;
+  grid-template-columns: 1fr ifr ifr;
+   
+}
+.red6 {
+  width: 30%; 
+  height: 40%; 
+  background-color: red; 
+  position: absolute;
+  z-index: 1; 
+} 
+.green6 {
+  width: 150px; 
+  height: 150px; 
+  background-color: green; 
+  position: absolute;
+  z-index: 3;
+  margin-left: 50px;
+  margin-top: 50px;
+} 
+.yellow6 {
+  width: 100px; 
+  height: 100px; 
+  background-color: gold; 
+} 
+.blue6 {
+  width: 40%; 
+  height: 70%; 
+  background-color: blue; 
+  position: absolute;
+  z-index: 2;
+  margin-left: 100px;
+  margin-top: 25px;
+} 
+
+
+
+
+import React from "react"
+
+const App = () => {
+  return(
+    <div>App</div>)
+}
+
+export default App
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Seeker App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
+
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}",
+  ],
+  theme: {
+    extend: {
+      colors:{
+        'blueColor': '#2a68ff',
+        'greyIsh': '#f1f4f8',
+        'cardShadow': '#f7f8f9',
+        'texColor': '#252b36',
+      }
+    },
+  },
+  plugins: [],
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@200;300;400;600;800&family=Roboto:ital,wght@1,500&display=swap');
+
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+npm create vite@latest
+
+
+import React from "react"
+
+const App = () => {
+  return(
+    <div>App</div>)
+}
+
+export default App
