@@ -22,12 +22,12 @@ nav a
     color: #416422;
     text-decoration: none;
     padding: 35px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 body
 {
-    background-color: white;
+    background-color: darkgray;
     margin: 0;
     padding: 0;
 }
@@ -76,6 +76,7 @@ footer, p
 #logo_link   
 {
     padding-top: 5px;
+  
 }
 footer  
 { 
@@ -200,7 +201,7 @@ body, html {
 }
 
 .about_us {
-  width: 42%; 
+  max-width: 550px; 
   text-align: left;
   margin-top: 550px;
   margin-left: 20px;
@@ -219,3 +220,31 @@ body, html {
     color: #416422;
     margin-left: 800px;
 }
+
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #72a06a;; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+  
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 33%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+  height: 100px;
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.home-bar {
+  background-color: #416422; /* Add an active/current color */
+}
+
+
