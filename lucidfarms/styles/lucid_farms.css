@@ -137,7 +137,7 @@ body, html {
     height: 100%;
 }
 
-.hero-text
+.hero-text  
     {
         
         color: #d9d40c ;
@@ -216,6 +216,8 @@ body, html {
     
 }
 
+
+
 .stat{
     color: #416422;
     margin-left: 800px;
@@ -246,5 +248,56 @@ body, html {
 .home-bar {
   background-color: #416422; /* Add an active/current color */
 }
+
+
+.product-hero-image{
+    width: 100%;
+    height: 750px;}
+
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    }
+
+
+
+main 
+.product-fish-img, 
+.product-egg-img, 
+.product-fowl-img {
+    width: 500px ;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border: 10px solid #72a06a;
+    box-shadow: 3px 3px 5px #d9d40c;
+
+}
+
+.product-egg-des,
+.product-fowl-des,
+.product-fish-des {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+main 
+.product-fish-des, 
+.product-egg-des, 
+.product-fowl-des {
+    width: 500px ;
+    height: 500px;
+    margin-left: 10px;
+    color: #416422;
+    font-family: var( --paragraph-font);
+    font-size: 25px;
+}
+
+
 
 
